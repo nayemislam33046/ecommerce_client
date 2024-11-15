@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite build",
     "build": "tailwindcss -i App.css -o ./css/App.min.css --minify",
     "watch": "tailwindcss -i App.css -o ./css/App.min.css --watch",
     "lint": "eslint .",
